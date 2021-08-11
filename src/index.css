@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 10px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div.MuiCardContent-root {
+  padding: 0 !important;
+  text-align: left;
+}
+
+.roots {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description {
+  overflow: hidden;
+  max-height: 150px;
 }
